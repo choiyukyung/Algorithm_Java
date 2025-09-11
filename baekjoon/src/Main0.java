@@ -9,6 +9,12 @@ public class Main0 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
 
+        int[] arr = new int[n];
+        st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < n; i++) {
+            arr[i] = Integer.parseInt(st.nextToken());
+        }
+
         System.out.println(n);
 
     }
